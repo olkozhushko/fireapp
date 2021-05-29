@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <Users />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Users from './components/Users.vue';
-
 export default {
   name: 'App',
-  components: {
-    Users,
-  },
 };
 </script>
 
